@@ -1,0 +1,28 @@
+doctype html
+/[if IE 8]
+  | <html class="no-js lt-ie9">
+/[if IE 9]
+  | <html class="ie9">
+html.no-js
+  /! <![endif]
+  head
+    meta charset="utf-8" 
+    meta name="viewport" content="width=device-width, initial-scale=1.0" 
+    title>Foundation | Welcome
+    link rel="stylesheet" href="stylesheets/app.css" 
+    script src="bower_components/modernizr/modernizr.js">
+  body
+    .row
+      .large-12.columns
+        h2 Welcome to Foundation
+        hr
+    .row
+      .large-8.columns
+        h3 The Grid
+        .row
+          .large-12.columns
+            .panel
+              p This is a twelve column section in a row. Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.
+
+    
+  script src="javascripts/app.min.js"
